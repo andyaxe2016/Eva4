@@ -1,23 +1,23 @@
-@server = https://fictional-couscous-vgqvx74v6cv76-8080.app.github.dev
+@server = https://organic-space-couscous-jxpjr7w467qcq9px-8080.app.github.dev
 ###
-GET {{server}}/api/instrumentos/2
+GET {{server}}/api/cursos/2
 ###
-POST {{server}}/api/instrumentos
+POST {{server}}/api/cursos
 Content-Type: application/json
 
-{"nombre": "Quena", "categoria": "Viento", "descripcion": "Como una flauta"}
+{"nombre": "Literatura", "categoria": "Letras", "descripcion": "Contenido de obras literarias"}
 ###
-GET {{server}}/api/musicos
+GET {{server}}/api/alumnos
 ###
-POST {{server}}/api/musicos
+POST {{server}}/api/alumnos
 Content-Type: application/json
 
-{"nombre": "Joaquín"}
+{"nombre": "Lucio"}
 ###
-GET {{server}}/api/bandas
+GET {{server}}/api/aulas
 ###
-GET {{server}}/api/bandas/1
+GET {{server}}/api/aulas/1
 ###
-GET {{server}}/api/bandas/1/formacion
+GET {{server}}/api/aulas/1/formacion
 ###
-GET {{server}}/api/integrantes
+GET {{server}}/api/pabellones
