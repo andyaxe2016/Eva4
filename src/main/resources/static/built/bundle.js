@@ -41084,7 +41084,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Cursos",
-        emoji: "\uD83C\uDFB8"
+        emoji: "\uD83D\uDCDA"
       }), /*#__PURE__*/React.createElement(CursoList, {
         cursos: this.state.cursos
       }), /*#__PURE__*/React.createElement(Link, {
@@ -41095,7 +41095,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Alumnos",
-        emoji: "\uD83C\uDFB6"
+        emoji: "\uD83E\uDDD1"
       }), /*#__PURE__*/React.createElement(AlumnoList, {
         alumnos: this.state.alumnos
       }), /*#__PURE__*/React.createElement(Link, {
@@ -41106,7 +41106,7 @@ var HomePage = /*#__PURE__*/function (_React$Component) {
         }
       }, /*#__PURE__*/React.createElement(Titulo, {
         entidad: "Aulas",
-        emoji: "\uD83D\uDC69\uD83C\uDFFC\u200D\uD83C\uDFA4"
+        emoji: "\uD83C\uDFEB"
       }), /*#__PURE__*/React.createElement(AulaList, {
         aulas: this.state.aulas
       }), /*#__PURE__*/React.createElement(Link, {
